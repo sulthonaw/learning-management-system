@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .container {
+        @apply px-5 py-14;
+    }
+}
+
+
+@layer components {
+    .card-course {
+        @apply bg-white w-full max-w-sm outline-1 rounded p-3 shadow-md;
+    }
+}
